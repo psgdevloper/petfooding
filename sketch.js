@@ -37,7 +37,7 @@ if(foodS==0) {
   fill("Orange")
   textSize(25);
   text("No Milk Bro, order Some Milk first", 50, 420)
-  text("To order Milk press RIGHT key ", 100, 470)
+  text("To order Milk press RIGHT key ", 60, 470)
 }
 
 if(keyWentDown("right") && foodS==0)
